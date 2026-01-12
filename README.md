@@ -12,3 +12,13 @@
 - Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
 
 
+
+|Source    |Usage      |Note       |
+|----------|-----------|-----------|
+|https://getbootstrap.com/docs/5.3/getting-started/introduction/|Initial Navigation Bar Bootstrap code|Edited to requirements.|
+|pexels-jessica-bryant-592135-1370700.jpg|Logo use||
+||||
+||||
+|https://www.mind.org.uk|Reference materials||
+|https://www.samaritans.org|Reference materials||
+||||

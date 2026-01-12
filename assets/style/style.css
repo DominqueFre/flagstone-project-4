@@ -1,0 +1,43 @@
+/* Import some fonts to use */
+
+/* Global */
+
+/* Body  */
+
+/* navbar */
+.nav-link .active {
+
+    color: #33acdc;
+
+}
+
+/* Header / Hero section */
+
+
+/* main */
+
+main {
+    background-image: linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)), url("../images/ctrypathballoons.jpg")
+    no-repeat cover cover/center;
+    
+}
+
+
+/* Section 1 */
+
+
+/* Section 2 */
+
+
+/* Section 3 */
+
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Media queries if required */
