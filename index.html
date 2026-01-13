@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
   <meta name="description"
     content="A website dedicated to promoting mental health awareness and providing resources for support.">
   <meta name="keywords" content="Mental Health, Awareness, Support, Well-being, Resources">
-  
-    <!-- Title -->
-    <title>Mental Health Awareness</title> 
-  <!--Favicon--> 
+
+  <!-- Title -->
+  <title>Mental Health Awareness</title>
+  <!--Favicon-->
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon/freepikmini64.png">
   <!-- Links to styles Bootstrap and CSS -->
 
@@ -70,7 +70,7 @@
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#section-signs">Signs you may be under stress</a></li>
-            <li><a class="dropdown-item" href="#section-suffer">Don't suffer in silence</a></li>
+            <li><a class="dropdown-item" href="#section-suggestions">Don't suffer in silence</a></li>
             <li><a class="dropdown-item" href="#section-help">Where you can go for help</a></li>
             <li><a class="dropdown-item" href="#section-books">Mental Health in books</a></li>
             <li><a class="dropdown-item" href="#section-film">Mental Health in film</a></li>
@@ -86,8 +86,8 @@
   </nav>
 
   <!-- Header image and initial message -->
-  <header>
-    <h1></h1>
+  <header class="container text-center my-4">
+    <h1>Searching for Support?</h1>
     <p>Anyone can find themselves overwhelmed at times. Life throws many challenges at us. Common though some of these
       challenges might appear as most people go through them at some point in their life, such as bereavement, the loss
       of a job,illness, or a relationship ending. This does not mean you have to face them alone.</p>
@@ -97,11 +97,11 @@
   <main>
     <!-- Signs of Mental Health Issues / Stress etc. -->
     <!--  a block or line of images - anger - switched off - someone unkempt etc.  -->
-    <section id="section-signs" class="container section-signs my-3">
-      <div class="row ">
+    <section id="section-signs" class="container section-signs mt-4">
+      <div class="row py-3">
         <div class="col-12">
           <h2>There are many signs that you may be finding things harder to deal with than usual</h2>
-          <p>Some examples are below and there are many more.</p>
+          <p><b>Some examples are below and there are many more.</b></p>
         </div>
         <div class="col-md-4 ">
           <div class="card h-100 mb-3">
@@ -158,10 +158,10 @@
 
 
 
-    <!-- Don't suffer in silence - Ways you can Self help - hints ant tips on an accordion tool - various section -->
-    <!-- accordion -->
-    <section id="section-suffer" class="container section-suffer my-3">
-      <div class="row ">
+    <!-- Don't suffer in silence - Ways you can Self help - hints and tips -->
+    <!-- Accordion -->
+    <section id="section-suggestions" class="container section-suggestions my-4">
+      <div class="row py-3">
         <div class="col-12">
           <h2>Don't suffer in silence - Here are some ways you can help yourself:-</h2>
           <p><b>This is quite a long list so pick one that resonates with you.</b></p>
@@ -170,16 +170,28 @@
           <div class="accordion" id="selfHelpAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Mindfulness and Meditation
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa-solid fa-spa me-3"></i>Mindfulness and Meditation
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
-                  <strong>Mindfulness and meditation</strong> can help you stay present and reduce stress. There are
-                  many apps and online resources available to guide you through mindfulness practices.
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <p><strong>Mindfulness and meditation</strong> can help you stay present and reduce stress. There
+                        are
+                        many apps and online resources available to guide you through mindfulness practices.</p>
+                      <p>By dedicating just 10-15 minutes daily to meditation, you can experience reduced anxiety,
+                        improved focus, and better emotional regulation. Start with guided meditations on apps like
+                        Headspace or Calm to build a consistent practice.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/ctrypathballoons.jpg" alt="Mindfulness and meditation"
+                        class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -187,14 +199,26 @@
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Physical Activity
+                  <i class="fa-solid fa-dumbbell me-3"></i>Physical Activity
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
-                  <strong>Regular physical activity</strong> can boost your mood and energy levels. Even a short walk
-                  each day can make a difference.
+                  <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/shoes.png" alt="Physical activity" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-8">
+                      <p><strong>Regular physical activity</strong> can boost your mood and energy levels. Even a short
+                        walk
+                        each day can make a difference.</p>
+                      <p>Exercise releases endorphins, often called "feel-good" chemicals. Whether it's jogging,
+                        dancing, swimming, or yoga, find an activity you enjoy and aim for at least 30 minutes of
+                        moderate activity most days of the week.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -202,14 +226,26 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Healthy Eating
+                  <i class="fa-solid fa-carrot me-3"></i>Healthy Eating
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
-                  <strong>Eating a balanced diet</strong> can improve your overall well-being. Try to include a variety
-                  of fruits, vegetables, and whole grains in your meals.
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <p><strong>Eating a balanced diet</strong> can improve your overall well-being. Try to include a
+                        variety
+                        of fruits, vegetables, and whole grains in your meals.</p>
+                      <p>Nutrition directly impacts mental health and mood. Reduce processed foods and sugar, which can
+                        cause energy crashes and mood swings. Focus on whole foods rich in omega-3 fatty acids, B
+                        vitamins, and antioxidants to support brain health.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/ctrypathballoons.jpg" alt="Healthy eating" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,14 +253,26 @@
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Consistent Sleep Routines
+                  <i class="fa-solid fa-bed me-3"></i>Consistent Sleep Routines
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
-                  <strong>Maintaining consistent sleep routines</strong> can improve your overall well-being. Try to go
-                  to bed and wake up at the same time every day.
+                  <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/shoes.png" alt="Sleep routines" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-8">
+                      <p><strong>Maintaining consistent sleep routines</strong> can improve your overall well-being. Try
+                        to go
+                        to bed and wake up at the same time every day.</p>
+                      <p>Sleep is crucial for mental health and emotional resilience. Create a relaxing bedtime routine,
+                        avoid screens one hour before bed, keep your room cool and dark, and aim for 7-9 hours of
+                        quality sleep each night.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -232,30 +280,377 @@
               <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Setting Healthy Boundaries
+                  <i class="fa-solid fa-hand-paper me-3"></i>Setting Healthy Boundaries
                 </button>
               </h2>
               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                 data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
-                  <strong>Setting healthy boundaries</strong> can improve your overall well-being. Learn to say no when
-                  necessary and prioritize your own needs.
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <p><strong>Setting healthy boundaries</strong> can improve your overall well-being. Learn to say
+                        no when
+                        necessary and prioritize your own needs.</p>
+                      <p>Healthy boundaries protect your mental health and prevent burnout. This means limiting your
+                        availability, managing others' expectations, and protecting your personal time. Remember that
+                        saying no to one thing means saying yes to yourself.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/stayaway.jpg" alt="Setting boundaries" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <i class="fa-solid fa-book me-3"></i>Journaling
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#selfHelpAccordion">
+                <div class="accordion-body">
+                  <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/ctrypathballoons.jpg" alt="Journaling" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-8">
+                      <p><strong>Journaling</strong> can help you process your emotions and thoughts. Writing down your
+                        feelings
+                        allows you to express yourself freely and gain clarity on what's bothering you.</p>
+                      <p>Try free-writing for 10-15 minutes without judgment or editing. You can also use prompts like
+                        "What am I grateful for?" or "What's been on my mind?" Journaling helps reduce anxiety,
+                        increases self-awareness, and creates a safe space for self-reflection.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <i class="fa-solid fa-heart me-3"></i>Spending Time in Nature
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#selfHelpAccordion">
+                <div class="accordion-body">
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <p><strong>Spending time in nature</strong> has been shown to reduce stress and improve mental
+                        health. Take
+                        time to enjoy parks, gardens, or natural settings regularly.</p>
+                      <p>Nature exposure reduces cortisol levels and increases feelings of calm and connectedness. Even
+                        20 minutes in green spaces can improve mood and focus. Walk barefoot on grass, listen to
+                        birdsong, or simply sit under a tree to reconnect with the natural world.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/shoes.png" alt="Nature time" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <i class="fa-solid fa-people-group me-3"></i>Connect with Others
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#selfHelpAccordion">
+                <div class="accordion-body">
+                  <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/stayaway.jpg" alt="Connect with others" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-8">
+                      <p><strong>Connecting with others</strong> can help combat loneliness and provide emotional
+                        support. Reach
+                        out to friends, family, or join groups with shared interests to build meaningful connections.
+                      </p>
+                      <p>Human connection is essential for mental health. Schedule regular time with loved ones, attend
+                        social events, or volunteer in your community. Even a brief phone call or coffee date can boost
+                        your mood and remind you that you're not alone in your struggles.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  <i class="fa-solid fa-music me-3"></i>Music and Creative Expression
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#selfHelpAccordion">
+                <div class="accordion-body">
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <p><strong>Music and creative expression</strong> can be powerful tools for emotional release.
+                        Whether through
+                        listening to music, playing an instrument, or engaging in art, creativity can help you process
+                        emotions
+                        in a healthy way.</p>
+                      <p>Create a playlist that matches your mood or helps lift your spirits. Try painting, drawing,
+                        dancing, or any form of artistic expression that speaks to you. Creative activities activate
+                        different parts of your brain and provide a healthy outlet for processing complex emotions.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="assets/images/ctrypathballoons.jpg" alt="Creative expression" class="img-fluid rounded"
+                        style="max-width: 150px;">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- Direct approaches - Professional Help / Helplines / Organisations -->
+    <!-- bubbles -->
 
-        <!-- Direct approaches - Professional Help / Helplines / Organisations -->
-        <!-- bubbles -->
+    <!--  Books / Films -->
+    <!-- Carousel with cards -->
+     
+    <section id="section-books" class="container my-4">
+      <div class="row py-3">
+        <div class="col-12 col-md-6">
+          <div class="col-12">
+            <h2>Mental Health in Books</h2>
+            <p><b>Explore these recommended books about mental health and well-being.</b></p>
+          </div>
+          <div class="col-12">
+            <div id="booksCarousel" class="carousel slide card-carousel" data-bs-ride="false">
+              <div class="carousel-inner card-carousel-inner">
+                <div class="carousel-item active">
 
-        <!-- Indirect approaches - Books / Quotes / Interesting Links -->
-        <!-- Carousel with three card sets -->
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Book 1">
+                      <div class="card-body">
+                        <h5 class="card-title">The Anxiety Toolkit</h5>
+                        <p class="card-text">Strategies for fine-tuning your mind and managing anxiety effectively.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/shoes.png" class="card-img-top" alt="Book 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Feeling Good</h5>
+                        <p class="card-text">The new mood therapy that helps overcome depression.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Book 3">
+                      <div class="card-body">
+                        <h5 class="card-title">Lost Connections</h5>
+                        <p class="card-text">Uncovering the real causes of depression and unexpected solutions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/anger.jpg" class="card-img-top" alt="Book 4">
+                      <div class="card-body">
+                        <h5 class="card-title">The Body Keeps the Score</h5>
+                        <p class="card-text">Brain, mind, and body in the healing of trauma.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-        <!-- Indirect approaches - Films / Quotes / Interesting Links -->
-        <!-- Carousel with three card sets -->
+                <div class="carousel-item">
 
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Book 5">
+                      <div class="card-body">
+                        <h5 class="card-title">Reasons to Stay Alive</h5>
+                        <p class="card-text">A memoir about depression and finding reasons to live.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/shoes.png" class="card-img-top" alt="Book 6">
+                      <div class="card-body">
+                        <h5 class="card-title">The Happiness Trap</h5>
+                        <p class="card-text">How to stop struggling and start living using ACT.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Book 7">
+                      <div class="card-body">
+                        <h5 class="card-title">Mindfulness</h5>
+                        <p class="card-text">A practical guide to finding peace in a frantic world.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/anger.jpg" class="card-img-top" alt="Book 8">
+                      <div class="card-body">
+                        <h5 class="card-title">The Power of Now</h5>
+                        <p class="card-text">A guide to spiritual enlightenment and present-moment awareness.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#booksCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#booksCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+          <div class="col-12 col-md-6">
+        <div class="col-12">
+          <h2>Mental Health in Film</h2>
+          <p><b>Films that explore mental health themes with sensitivity and insight.</b></p>
+        </div>
+        <div class="col-12">
+          <div id="filmsCarousel" class="carousel slide card-carousel" data-bs-ride="false">
+            <div class="carousel-inner card-carousel-inner">
+              <div class="carousel-item active">
+
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Silver Linings Playbook</h5>
+                      <p class="card-text">A story about bipolar disorder, depression, and finding hope.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/shoes.png" class="card-img-top" alt="Film 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Inside Out</h5>
+                      <p class="card-text">An animated exploration of emotions and mental health.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 3">
+                    <div class="card-body">
+                      <h5 class="card-title">A Beautiful Mind</h5>
+                      <p class="card-text">The true story of John Nash's life with schizophrenia.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 4">
+                    <div class="card-body">
+                      <h5 class="card-title">The Perks of Being a Wallflower</h5>
+                      <p class="card-text">A coming-of-age story addressing anxiety and PTSD.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Good Will Hunting</h5>
+                      <p class="card-text">A janitor's journey through therapy and self-discovery.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/shoes.png" class="card-img-top" alt="Film 6">
+                    <div class="card-body">
+                      <h5 class="card-title">The Skeleton Twins</h5>
+                      <p class="card-text">Twins reconnect after both attempting suicide.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 7">
+                    <div class="card-body">
+                      <h5 class="card-title">It's Kind of a Funny Story</h5>
+                      <p class="card-text">A teen checks himself into a psychiatric hospital.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-carousel-item">
+                  <div class="card h-100">
+                    <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 8">
+                    <div class="card-body">
+                      <h5 class="card-title">Joker</h5>
+                      <p class="card-text">A deep dive into mental illness and societal isolation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>         
+          <button class="carousel-control-prev" type="button" data-bs-target="#filmsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#filmsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>      
+      </div>
+    </section>
 
   </main>
   <footer>

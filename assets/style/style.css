@@ -21,8 +21,8 @@ body{
 }
 
 /* Header / Hero section */
-
-
+header {background-color: #e9ecef;
+}
 /* main */
 
 main {
@@ -41,10 +41,14 @@ main {
 }
 
 
-/* Section 1 */
-
+/* Section 1 section-signs */
+section {
+    background-color: #e9ecef52;
+  z-index: 3;
+}
 
 /* Section 2 */
+
 
 
 /* Section 3 */
