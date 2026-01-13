@@ -17,7 +17,10 @@
 |----------|-----------|-----------|
 |https://getbootstrap.com/docs/5.3/getting-started/introduction/|Initial Navigation Bar Bootstrap code|Edited to requirements.|
 |pexels-jessica-bryant-592135-1370700.jpg|Logo use||
-||||
+|pexels-pixabay-163431.jpg|Image use|Anger|
+|pexels-shanekell-1554613|Image use|Goingthruthemotions|
+|pexels-rozegold-2422896|Image use|Empty shoes|
+|pexels-pixabay-262075.jpg|Image use|Stayaway - Withdrawal|
 ||||
 |https://www.mind.org.uk|Reference materials||
 |https://www.samaritans.org|Reference materials||
