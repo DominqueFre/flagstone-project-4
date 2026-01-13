@@ -45,4 +45,4 @@ To do     AI debugging was used as a first step in checking for potential issues
     AI's role in the development process enabled 
     and how it influenced workflow.
 
-<!-- add five more accordions / flesh out content  -->
+<!-- add images and authors to books - consider best size for images-->

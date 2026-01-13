@@ -14,11 +14,15 @@ body{
 
 
 /* navbar */
+nav {
+    margin-bottom: 32px;
+}
 .nav-link .active {
 
     color: #33acdc;
 
 }
+
 
 /* Header / Hero section */
 header {background-color: #e9ecef;

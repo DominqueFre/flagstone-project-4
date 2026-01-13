@@ -24,7 +24,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"> <img class=" d-inline-block align-text-bottom"
           src="assets/images/ctrypathballoons.jpg" alt="Mental Health - it's OK to be you Logo" width="21" height="28">
@@ -51,17 +51,16 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#share">Call 999 - The emergency services </a></li>
+              <li><a class="dropdown-item" href="tel:999">Call 999 - The emergency services </a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#share">Call 111 - The NHS Helpline </a></li>
-
+              <li><a class="dropdown-item" href="tel:111">Call 111 - The NHS Helpline </a></li>
               <li>
                 <hr class="dropdown-divider">
                 </li">
-              <li><a class="dropdown-item" href="#share">Call 116 123 - The Samaritans</a></li>
-              <li><a class="dropdown-item" href="#share">Text SHOUT to 85258 - The Samaritans</a></li>
+              <li><a class="dropdown-item" href="tel:116123">Call 116 123 - The Samaritans</a></li>
+              <li><a class="dropdown-item" href="sms:85258">Text SHOUT to 85258 - The Samaritans</a></li>
           </li>
         </ul>
         <li class="nav-item dropdown">
@@ -69,15 +68,17 @@
             Don't want to scroll?
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#section-signs">Signs you may be under stress</a></li>
-            <li><a class="dropdown-item" href="#section-suggestions">Don't suffer in silence</a></li>
-            <li><a class="dropdown-item" href="#section-help">Where you can go for help</a></li>
-            <li><a class="dropdown-item" href="#section-books">Mental Health in books</a></li>
-            <li><a class="dropdown-item" href="#section-film">Mental Health in film</a></li>
+            <li><a class="dropdown-item skip-link" href="#section-signs">Signs you may be under stress</a></li>
+            <li><a class="dropdown-item skip-link" href="#section-suggestions">Don't suffer in silence</a></li>
+            <li><a class="dropdown-item skip-link" href="#section-help">Where you can go for help</a></li>
+            <li><a class="dropdown-item skip-link" href="#bookcarousel">Mental Health in books</a></li>
+            <li><a class="dropdown-item skip-link" href="#filmcarousel">Mental Health in film</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="#share">Share our website with a friend</a></li>
+            <li><a class="dropdown-item share"
+                href="mailto:?subject=Look%20at%20this%20great%20website&body=Here%20is%20a%20link%20to%20the%20site%20https://dominquefre.github.io/flagstone-project-4/">Share
+                our website with a friend</a></li>
           </ul>
         </li>
         </ul>
@@ -421,14 +422,38 @@
 
     <!-- Direct approaches - Professional Help / Helplines / Organisations -->
     <!-- bubbles -->
+    <!-- information to be used   
+     
+Organisation Name: Mind
+Website: https://www.mind.org.uk  
+Helpline: 0300 123 3393
+Description: Mind provides advice and support to empower anyone experiencing a mental health problem. They  offer information on various mental health topics, legal rights, and self-care strategies. 
+Organisation Name: Samaritans
+Website: https://www.samaritans.org
+Helpline: 116 123
+Description: Samaritans offer a safe place for anyone struggling to cope, providing confidential support 24/7. They listen without judgment and help people explore their feelings and options.
+Organisation Name: NHS Every Mind Matters
+Website: https://www.nhs.uk/every-mind-matters/
+Organisation Name: CALM (Campaign Against Living Miserably)
+Website: https://www.thecalmzone.net/
+Helpline: 0800 58 58 58
+Description: CALM is dedicated to preventing 
+
+
+-->
+
+
+
+
+
 
     <!--  Books / Films -->
     <!-- Carousel with cards -->
-     
+
     <section id="section-books" class="container my-4">
       <div class="row py-3">
         <div class="col-12 col-md-6">
-          <div class="col-12">
+          <div id="bookcarousel" class="col-12 pt-3">
             <h2>Mental Health in Books</h2>
             <p><b>Explore these recommended books about mental health and well-being.</b></p>
           </div>
@@ -539,123 +564,125 @@
             </div>
           </div>
         </div>
-          <div class="col-12 col-md-6">
-        <div class="col-12">
-          <h2>Mental Health in Film</h2>
-          <p><b>Films that explore mental health themes with sensitivity and insight.</b></p>
-        </div>
-        <div class="col-12">
-          <div id="filmsCarousel" class="carousel slide card-carousel" data-bs-ride="false">
-            <div class="carousel-inner card-carousel-inner">
-              <div class="carousel-item active">
+        <div class="col-12 col-md-6">
+          <div id="filmcarousel" class="col-12 pt-3">
+            <h2>Mental Health in Film</h2>
+            <p><b>Films that explore mental health themes with sensitivity and insight.</b></p>
+          </div>
+          <div class="col-12">
+            <div id="filmsCarousel" class="carousel slide card-carousel" data-bs-ride="false">
+              <div class="carousel-inner card-carousel-inner">
+                <div class="carousel-item active">
 
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 1">
-                    <div class="card-body">
-                      <h5 class="card-title">Silver Linings Playbook</h5>
-                      <p class="card-text">A story about bipolar disorder, depression, and finding hope.</p>
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Silver Linings Playbook</h5>
+                        <p class="card-text">A story about bipolar disorder, depression, and finding hope.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/shoes.png" class="card-img-top" alt="Film 2">
-                    <div class="card-body">
-                      <h5 class="card-title">Inside Out</h5>
-                      <p class="card-text">An animated exploration of emotions and mental health.</p>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/shoes.png" class="card-img-top" alt="Film 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Inside Out</h5>
+                        <p class="card-text">An animated exploration of emotions and mental health.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 3">
-                    <div class="card-body">
-                      <h5 class="card-title">A Beautiful Mind</h5>
-                      <p class="card-text">The true story of John Nash's life with schizophrenia.</p>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 3">
+                      <div class="card-body">
+                        <h5 class="card-title">A Beautiful Mind</h5>
+                        <p class="card-text">The true story of John Nash's life with schizophrenia.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 4">
-                    <div class="card-body">
-                      <h5 class="card-title">The Perks of Being a Wallflower</h5>
-                      <p class="card-text">A coming-of-age story addressing anxiety and PTSD.</p>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 4">
+                      <div class="card-body">
+                        <h5 class="card-title">The Perks of Being a Wallflower</h5>
+                        <p class="card-text">A coming-of-age story addressing anxiety and PTSD.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
+                <div class="carousel-item">
 
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 5">
-                    <div class="card-body">
-                      <h5 class="card-title">Good Will Hunting</h5>
-                      <p class="card-text">A janitor's journey through therapy and self-discovery.</p>
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/ctrypathballoons.jpg" class="card-img-top" alt="Film 5">
+                      <div class="card-body">
+                        <h5 class="card-title">Good Will Hunting</h5>
+                        <p class="card-text">A janitor's journey through therapy and self-discovery.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/shoes.png" class="card-img-top" alt="Film 6">
+                      <div class="card-body">
+                        <h5 class="card-title">The Skeleton Twins</h5>
+                        <p class="card-text">Twins reconnect after both attempting suicide.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 7">
+                      <div class="card-body">
+                        <h5 class="card-title">It's Kind of a Funny Story</h5>
+                        <p class="card-text">A teen checks himself into a psychiatric hospital.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-carousel-item">
+                    <div class="card h-100">
+                      <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 8">
+                      <div class="card-body">
+                        <h5 class="card-title">Joker</h5>
+                        <p class="card-text">A deep dive into mental illness and societal isolation.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/shoes.png" class="card-img-top" alt="Film 6">
-                    <div class="card-body">
-                      <h5 class="card-title">The Skeleton Twins</h5>
-                      <p class="card-text">Twins reconnect after both attempting suicide.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Film 7">
-                    <div class="card-body">
-                      <h5 class="card-title">It's Kind of a Funny Story</h5>
-                      <p class="card-text">A teen checks himself into a psychiatric hospital.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-carousel-item">
-                  <div class="card h-100">
-                    <img src="assets/images/anger.jpg" class="card-img-top" alt="Film 8">
-                    <div class="card-body">
-                      <h5 class="card-title">Joker</h5>
-                      <p class="card-text">A deep dive into mental illness and societal isolation.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>         
-          <button class="carousel-control-prev" type="button" data-bs-target="#filmsCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#filmsCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+              <button class="carousel-control-prev" type="button" data-bs-target="#filmsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#filmsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>      
       </div>
     </section>
 
   </main>
   <footer>
-    <p>&copy; 2024 Mental Health Awareness. All rights reserved. <a action="mail" method="html" target="_blank" href=""
-        id="share" class="share"> <i class="fa-solid fa-share-nodes"></i> Share our website with a friend</a></p>
+    <p>&copy; 2024 Mental Health Awareness. All rights reserved. <a target="_blank"
+        href="mailto:?subject=Look%20at%20this%20great%20website&body=Here%20is%20a%20link%20to%20the%20site%20https://dominquefre.github.io/flagstone-project-4/"
+        class="share"> <i class="fa-solid fa-share-nodes"></i> Share our website with a
+        friend</a></p>
   </footer>
 
 
