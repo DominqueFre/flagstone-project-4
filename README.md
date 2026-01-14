@@ -11,6 +11,10 @@
 - Resource Links: A grid layout for external links to mental health resources styled with Bootstrap buttons to make them stand out.
 - Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
 
+Images of submitted website
+
+![website loading image](assets/readmeimage/image.png)
+
 
 
 |Source    |Usage      |Note       |
@@ -54,17 +58,18 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
-    (ii)
+    Used Lighthouse / CSS checker / HTML checker
+    (ii) Used additional CSS styling when needed to supplement the Bootstrap responsiveness
 ### LO3:
     (i)  Deployed regularly throughout the project, one issue - unknown if it was "rush hour" or a coding issue - next deployment had no issues.
 ### LO4:
-    (i)  Minimial styling
+    (i)  Minimial styling, use of AI and Bootstrap.
 ### LO5: AI usage
     (i) AI was used to ...
             Inline code help was useful in its' predictive nature when making a change, multiple times through a particular section of code - for example after deciding to use images in the suffer-section, it quickly made suitable suggestions for most of the other items in the list.
     (ii)    AI debugging was used as a first step in checking for potential issues prior to checking the deployed site, this enabled minor coding errors and other amendments and tidying of the code to be considered as I am currently learning, looking at the individual issues and deciding what needed to be done was a valuable learning exercise.
     (iii)   AI was able to improve performance by making suggestions such as lazy-loading - this has not been implemented in this case but will be considered for future projects.
             AI was able to improve User experience for mobile users by generating additional Javascript to enhance Bootstrap functinality
-    (iv)    AI's role in the development process enabled some items to be added more quickly.
+    (iv)    AI's role in the development process enabled some items to be added more quickly.  However not all suggestions were well-received by the mark-up checker and had to be "undone".  Aria-labels suggested by the AI were not compatible.
 
 
