@@ -25,6 +25,15 @@
 |pexels-pixabay-163431.jpg|Image use|Anger|
 |pexels-shanekell-1554613|Image use|Shoes|
 |pexels-pixabay-262075.jpg|Image use|Stayaway|
+|pexels-natalie-goodwin-2148267387-30983411|Image use|mindfulness|
+|pexels-yankrukov-6815665|Image Use|physical|
+|pexels-alisha-mishra-579430-1346381|Image Use|healthy|
+|pexels-billy-10493902|Image Use|sleep|
+|pexels-olly-3762802|Image Use|boundaries|
+|pexels-elisabeth-ende-20918671-7431638|Image Use|journal|
+|pexels-simon73-1552932|Image Use|nature|
+|pexels-brett-sayles-3733929|Image Use|connect|
+|pexels-yankrukov-8191522|Image Use|creativity|
 ||||
 |https://www.mind.org.uk|Reference materials||
 |https://www.samaritans.org|Reference materials||
