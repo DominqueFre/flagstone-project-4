@@ -14,9 +14,9 @@ body{
 
 
 /* navbar */
-nav {
+/* nav {
     margin-bottom: 32px;
-}
+} */
 .nav-link.active {
 
     color: #33acdc;
@@ -44,12 +44,15 @@ main {
     width:100%;
 }
 
+/* General section CSS */
 
-/* Section 1 section-signs */
 section {
     background-color: #e9ecef52;
   z-index: 3;
+  scroll-margin-top: 70px;
 }
+
+/* Section 1 section-signs */
 
 /* Section 2 section-suggestions */
 
@@ -79,8 +82,9 @@ section {
 
 /* Section 4 film / books */
 
-
-
+ subsection {
+    scroll-margin-top: 90px;
+ }
 
 /* Footer */
 footer {

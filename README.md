@@ -55,3 +55,4 @@ To do     AI debugging was used as a first step in checking for potential issues
     and how it influenced workflow.
 
 <!-- add images and authors to books - consider best size for images-->
+<!-- fix it so links take you to the top of the header -->
