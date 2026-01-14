@@ -17,7 +17,7 @@ body{
 nav {
     margin-bottom: 32px;
 }
-.nav-link .active {
+.nav-link.active {
 
     color: #33acdc;
 
@@ -25,7 +25,7 @@ nav {
 
 
 /* Header / Hero section */
-header {background-color: #e9ecef;
+header {background-color: pink;
 }
 /* main */
 
@@ -41,7 +41,7 @@ main {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
-    width:100%
+    width:100%;
 }
 
 
@@ -51,11 +51,35 @@ section {
   z-index: 3;
 }
 
-/* Section 2 */
+/* Section 2 section-suggestions */
 
 
 
-/* Section 3 */
+/* Section 3 section-help aka bubble */
+  .bubble {
+    background-color: pink;
+    z-index: 3;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.bubble-inner {
+   width: 170px;
+   height: 170px; 
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* Section 4 film / books */
+
+
 
 
 /* Footer */

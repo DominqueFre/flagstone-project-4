@@ -58,29 +58,30 @@
               <li><a class="dropdown-item" href="tel:111">Call 111 - The NHS Helpline </a></li>
               <li>
                 <hr class="dropdown-divider">
-                </li">
+              </li>
               <li><a class="dropdown-item" href="tel:116123">Call 116 123 - The Samaritans</a></li>
-              <li><a class="dropdown-item" href="sms:85258">Text SHOUT to 85258 - The Samaritans</a></li>
+              <li><a class="dropdown-item" href="sms:85258">Text SHOUT to 85258 - The Samaritans</a>
+              </li>
+            </ul>
           </li>
-        </ul>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Don't want to scroll?
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item skip-link" href="#section-signs">Signs you may be under stress</a></li>
-            <li><a class="dropdown-item skip-link" href="#section-suggestions">Don't suffer in silence</a></li>
-            <li><a class="dropdown-item skip-link" href="#section-help">Where you can go for help</a></li>
-            <li><a class="dropdown-item skip-link" href="#bookcarousel">Mental Health in books</a></li>
-            <li><a class="dropdown-item skip-link" href="#filmcarousel">Mental Health in film</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item share"
-                href="mailto:?subject=Look%20at%20this%20great%20website&body=Here%20is%20a%20link%20to%20the%20site%20https://dominquefre.github.io/flagstone-project-4/">Share
-                our website with a friend</a></li>
-          </ul>
-        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Don't want to scroll?
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item skip-link" href="#section-signs">Signs you may be under stress</a></li>
+              <li><a class="dropdown-item skip-link" href="#section-suggestions">Don't suffer in silence</a></li>
+              <li><a class="dropdown-item skip-link" href="#section-help">Where you can go for help</a></li>
+              <li><a class="dropdown-item skip-link" href="#bookcarousel">Mental Health in books</a></li>
+              <li><a class="dropdown-item skip-link" href="#filmcarousel">Mental Health in film</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item share"
+                  href="mailto:?subject=Look%20at%20this%20great%20website&body=Here%20is%20a%20link%20to%20the%20site%20https://dominquefre.github.io/flagstone-project-4/">Share
+                  our website with a friend</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -442,6 +443,49 @@ Description: CALM is dedicated to preventing
 
 -->
 
+    <section id="section-help" class="container">
+      <div class="row ">
+        <div class="col-12">
+          <h5>Organisations who can help</h5>
+          <p>Here are some organisations that provide support and resources for mental health issues:
+          </p>
+        </div>
+        <div class="col-12">
+          <div
+            class="bubble-container text-center align-items-center d-flex flex-wrap justify-content-center gap-4 my-4">
+            <div class="bubble mind-bubble align-self-center col-12 col-sm-6 col-md-3">
+              <div class="bubble-inner">
+                <h6>Mind</h6>
+                <p><a href="https://www.mind.org.uk" target="_blank" rel="noopener">Visit Mind Website</a></p>
+                <p>Helpline: 0300 123 3393</p>
+              </div>
+            </div>
+            <div class="bubble samaritans-bubble  align-self-center col-12 col-sm-6 col-md-3">
+              <div class="bubble-inner">
+                <h6>Samaritans</h6>
+                <p><a href="https://www.samaritans.org" target="_blank" rel="noopener">Visit Samaritans Website</a></p>
+                <p>Helpline: 116 123</p>
+              </div>
+            </div>
+            <div class="bubble nhs-bubble align-self-center col-12 col-sm-6 col-md-3">
+              <div class="bubble-inner">
+                <h6>NHS Every Mind Matters</h6>
+                <p><a href="https://www.nhs.uk/every-mind-matters/" target="_blank" rel="noopener">Visit NHS Every Mind
+                    Matters Website</a></p>
+              </div>
+            </div>
+            <div class="bubble calm-bubble align-self-center col-12 col-sm-6 col-md-3">
+              <div class="bubble-inner">
+                <h6>CALM (Campaign Against Living Miserably)</h6>
+                <p><a href="https://www.thecalmzone.net/" target="_blank" rel="noopener">Visit CALM Website</a></p>
+                <p>Helpline: 0800 58 58 58</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 
 
@@ -694,7 +738,47 @@ Description: CALM is dedicated to preventing
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/d5991e788a.js" crossorigin="anonymous"></script>
+  <script>
+    // Close the mobile navbar when a real navigation target is chosen (dropdown activators stay open)
+    document.addEventListener('DOMContentLoaded', () => {
+      const navbarCollapse = document.getElementById('navbarSupportedContent');
+      const toggler = document.querySelector('.navbar-toggler');
 
+      if (!navbarCollapse || !toggler) {
+        return;
+      }
+
+      const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+
+      const shouldClose = () => {
+        const togglerVisible = window.getComputedStyle(toggler).display !== 'none';
+        return togglerVisible && navbarCollapse.classList.contains('show');
+      };
+
+      const selectors = [
+        '.navbar-nav .nav-link:not(.dropdown-toggle)',
+        '.navbar-nav .dropdown-menu .dropdown-item'
+      ].join(',');
+
+      document.querySelectorAll(selectors).forEach(link => {
+        link.addEventListener('click', () => {
+          if (shouldClose()) {
+            bsCollapse.hide();
+          }
+        });
+      });
+    });
+  </script>
+  <!-- <script>
+        // Close navbar when a link is clicked - this does it for the dropdown selector also. so needs refinement to be useful.
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarCollapse = document.querySelector('.navbar-collapse');
+                const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                bsCollapse.hide();
+            });
+        });
+    </script> -->
 </body>
 
 </html>
