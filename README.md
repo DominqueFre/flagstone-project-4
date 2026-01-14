@@ -17,9 +17,12 @@
 |----------|-----------|-----------|
 |https://www.freepik.com/|AI generated image for use as a favicon|Pink heart 64x64|
 |https://getbootstrap.com/docs/5.3/getting-started/introduction/|Initial Navigation Bar Bootstrap code|Edited to requirements.|
-||Initial Cards Bootstrap code||
-||Initial Accordion code||
-||Initial Carousel Code||
+||Initial Cards Bootstrap code|Edited to requirements.|
+||Initial Accordion code|Edited to requirements.|
+||Initial Carousel Code|Edited to requirements.|
+||||
+|AI Generated|Navbar additional closing functionality|To supplement Bootstrap functionality|
+||||
 ||||
 |pexels-jessica-bryant-592135-1370700.jpg|Logo and Background image use||
 |pexels-pixabay-163431.jpg|Image use|Anger|
@@ -44,19 +47,24 @@
     (i)  There is one page and it is responsive
     (ii) Various links are included in the navigation to aid user experience
 ### LO2:
-    (i)
+    (i) Used CSS prefixer
+    /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
     (ii)
 ### LO3:
-    (i)
+    (i)  Deployed regularly throughout the project, one issue - unknown if it was "rush hour" or a coding issue - next deployment had no issues.
 ### LO4:
-    (i)
+    (i)  Minimial styling
 ### LO5: AI usage
     (i) AI was used to ...
             Inline code help was useful in its' predictive nature when making a change, multiple times through a particular section of code - for example after deciding to use images in the suffer-section, it quickly made suitable suggestions for most of the other items in the list.
-    (ii)    AI debugging was used as a first step in checking for potential issues prior to checking the deployed site, this enabled minor coding errors and other amendments and tidying of the code to be considered as I am currently learning looking at the individual issues and deciding what needed to be done was a valuable learning exercise.
-    (iii)   AI was able to improve performance by 
-    AI was able to improve USER experience
-    (iv)    AI's role in the development process enabled 
-    and how it influenced workflow.
+    (ii)    AI debugging was used as a first step in checking for potential issues prior to checking the deployed site, this enabled minor coding errors and other amendments and tidying of the code to be considered as I am currently learning, looking at the individual issues and deciding what needed to be done was a valuable learning exercise.
+    (iii)   AI was able to improve performance by making suggestions such as lazy-loading - this has not been implemented in this case but will be considered for future projects.
+            AI was able to improve User experience for mobile users by generating additional Javascript to enhance Bootstrap functinality
+    (iv)    AI's role in the development process enabled some items to be added more quickly.
 
 
