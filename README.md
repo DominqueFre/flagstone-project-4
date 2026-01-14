@@ -14,8 +14,7 @@
 Images of submitted website
 
 ![website loading image](assets/readmeimage/image.png)
-
-
+![errors and warnings](assets/readmeimage/errors.png)
 
 |Source    |Usage      |Note       |
 |----------|-----------|-----------|
