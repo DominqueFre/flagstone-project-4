@@ -41,18 +41,22 @@
 
 
 ### LO1:
-    Done ...
+    (i)  There is one page and it is responsive
+    (ii) Various links are included in the navigation to aid user experience
 ### LO2:
+    (i)
+    (ii)
 ### LO3:
+    (i)
 ### LO4:
+    (i)
 ### LO5: AI usage
-     AI was used to ...
+    (i) AI was used to ...
             Inline code help was useful in its' predictive nature when making a change, multiple times through a particular section of code - for example after deciding to use images in the suffer-section, it quickly made suitable suggestions for most of the other items in the list.
-To do     AI debugging was used as a first step in checking for potential issues prior to using blah de blah
-    AI was able to improve performance by 
+    (ii)    AI debugging was used as a first step in checking for potential issues prior to checking the deployed site, this enabled minor coding errors and other amendments and tidying of the code to be considered as I am currently learning looking at the individual issues and deciding what needed to be done was a valuable learning exercise.
+    (iii)   AI was able to improve performance by 
     AI was able to improve USER experience
-    AI's role in the development process enabled 
+    (iv)    AI's role in the development process enabled 
     and how it influenced workflow.
 
-<!-- add images and authors to books - consider best size for images-->
-<!-- fix it so links take you to the top of the header -->
+

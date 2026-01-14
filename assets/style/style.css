@@ -1,14 +1,17 @@
 /* Import some fonts to use */
 
 /* Global */
-
+* {
+      font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
 /* Body  */
-body{
-     min-height: 100vh;
+body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles eg font margin color*/
    
+
 }
 
 
@@ -23,14 +26,21 @@ body{
 
 }
 
-
-/* Header / Hero section */
-header {background-color: pink;
+.squiggle {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    text-wrap: auto;
+    width: auto;
 }
+/* Header / Hero section */
+header {
+    background-color: pink;
+}
+
 /* main */
 
 main {
-    
+
     background-image: linear-gradient(rgba(76, 76, 147, 0.6), rgb(255, 255, 0, 0.6)), url("../images/ctrypathballoons.jpg");
     background-color: aqua;
     background-size: cover;
@@ -41,15 +51,15 @@ main {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
 }
 
 /* General section CSS */
 
 section {
     background-color: #e9ecef52;
-  z-index: 3;
-  scroll-margin-top: 70px;
+    z-index: 3;
+    scroll-margin-top: 70px;
 }
 
 /* Section 1 section-signs */
@@ -59,7 +69,7 @@ section {
 
 
 /* Section 3 section-help aka bubble */
-  .bubble {
+.bubble {
     background-color: pink;
     z-index: 3;
     border-radius: 50%;
@@ -68,23 +78,22 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .bubble-inner {
-   width: 170px;
-   height: 170px; 
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /* Section 4 film / books */
-
- subsection {
+article {
     scroll-margin-top: 90px;
- }
+}
 
 /* Footer */
 footer {

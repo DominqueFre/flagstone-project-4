@@ -13,6 +13,10 @@
   <title>Mental Health Awareness</title>
   <!--Favicon-->
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon/freepikmini64.png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <!-- Links to styles Bootstrap and CSS -->
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -43,24 +47,28 @@
               About this site
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item">This site is not a mental health site. It is</a></li>
-              <li><a class="dropdown-item">a project for a coding Bootcamp.</a></li>
-              <li><a class="dropdown-item">If you need urgent help, particularly if</a></li>
-              <li><a class="dropdown-item">you feel you may or have hurt yourself,</a></li>
-              <li><a class="dropdown-item">or someone close to you. Then please...</a></li>
+              <li>
+                <p class="dropdown-item squiggle">This site is not a mental health site. It is a project for a coding
+                  Bootcamp. If you need urgent help, particularly if you feel you may or have hurt yourself, or someone
+                  close to you. Then please...</p>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="tel:999" aria-label="Call 999 emergency services">Call 999 - The emergency services </a></li>
+              <li><a class="dropdown-item" href="tel:999" aria-label="Call 999 emergency services">Call 999 - The
+                  emergency services </a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="tel:111" aria-label="Call 111 NHS Helpline">Call 111 - The NHS Helpline </a></li>
+              <li><a class="dropdown-item" href="tel:111" aria-label="Call 111 NHS Helpline">Call 111 - The NHS Helpline
+                </a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="tel:116123" aria-label="Call 116 123 The Samaritans">Call 116 123 - The Samaritans</a></li>
-              <li><a class="dropdown-item" href="sms:85258" aria-label="Text SHOUT to 85258 The Samaritans">Text SHOUT to 85258 - The Samaritans</a>
+              <li><a class="dropdown-item" href="tel:116123" aria-label="Call 116 123 The Samaritans">Call 116 123 - The
+                  Samaritans</a></li>
+              <li><a class="dropdown-item" href="sms:85258" aria-label="Text SHOUT to 85258 The Samaritans">Text SHOUT
+                  to 85258 - The Samaritans</a>
               </li>
             </ul>
           </li>
@@ -108,8 +116,8 @@
           <div class="card h-100 mb-3">
             <img src="assets/images/anger.jpg" class="card-img-top" alt="Angry fist image">
             <div class="card-body">
-              <h5 class="card-title mb-3">Anger</h5>
-              <h6 class="card-subtitle mb-2">Outbursts or irritability</h6>
+              <h3 class="card-title h5">Anger</h3>
+              <h4 class="card-subtitle mb-2 h6">Outbursts or irritability</h4>
               <p class="card-text">Anger can manifest in various ways, including sudden outbursts or persistent
                 irritability. However feeling angry constantly can be debilitating and may require support to manage
                 effectively.</p>
@@ -125,8 +133,8 @@
           <div class="card h-100 mb-3">
             <img src="assets/images/stayaway.jpg" class="card-img-top" alt="Person sitting alone image">
             <div class="card-body">
-              <h5 class="card-title mb-3">Withdrawal</h5>
-              <h6 class="card-subtitle mb-2">Pulling away from friends and family</h6>
+              <h3 class="card-title h5">Withdrawal</h3>
+              <h4 class="card-subtitle mb-2 h6">Pulling away from friends and family</h4>
               <p class="card-text">Withdrawal can manifest in various ways, including avoiding social interactions or
                 isolating oneself. However, withdrawing from everyone can cause a person's support network to shrink.
               </p>
@@ -142,8 +150,8 @@
             <img src="assets/images/shoes.png" class="card-img-top"
               alt="Empty shoes with a reflection as though a person is there indicating someone just going through the motions image">
             <div class="card-body">
-              <h5 class="card-title mb-3">Disinterest</h5>
-              <h6 class="card-subtitle mb-2">Lack of interest in activities you used to enjoy</h6>
+              <h3 class="card-title h5">Disinterest</h3>
+              <h4 class="card-subtitle mb-2 h6">Lack of interest in activities you used to enjoy</h4>
               <p class="card-text">Disinterest can manifest in various ways, including losing enthusiasm for hobbies or
                 activities that once brought joy. However, losing interest in everything can lead to a sense of
                 purposelessness and may require support to rediscover passions.
@@ -169,12 +177,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="fa-solid fa-spa me-3" aria-hidden="true" alt="Icon to represent Spa"></i>Mindfulness and Meditation
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="fa-solid fa-spa me-3" aria-hidden="true"></i>Mindfulness and Meditation
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-8">
@@ -186,8 +193,9 @@
                         Headspace or Calm to build a consistent practice.</p>
                     </div>
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips1mindfulness.jpg" alt="Image of crystals and herbs for mindfulness and meditation"
-                        class="img-fluid rounded" style="max-width: 150px;">
+                      <img src="assets/images/tips1mindfulness.jpg"
+                        alt="Image of crystals and herbs for mindfulness and meditation" class="img-fluid rounded"
+                        style="max-width: 150px;">
                     </div>
                   </div>
                 </div>
@@ -197,16 +205,15 @@
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <i class="fa-solid fa-dumbbell me-3 " aria-hidden="true" alt="Icon to represent Exercise"></i>Physical Activity
+                  <i class="fa-solid fa-dumbbell me-3 " aria-hidden="true"></i>Physical Activity
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips2physical.jpg" alt="Image of man boxing for physical activity" class="img-fluid rounded"
-                        style="max-width: 150px;">
+                      <img src="assets/images/tips2physical.jpg" alt="Image of man boxing for physical activity"
+                        class="img-fluid rounded" style="max-width: 150px;">
                     </div>
                     <div class="col-md-8">
                       <p><strong>Regular physical activity</strong> can boost your mood and energy levels. Even a short
@@ -224,11 +231,10 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <i class="fa-solid fa-carrot me-3" aria-hidden="true" alt="Icon to represent Healthy Eating"></i>Healthy Eating
+                  <i class="fa-solid fa-carrot me-3" aria-hidden="true"></i>Healthy Eating
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-8">
@@ -240,8 +246,8 @@
                         vitamins, and antioxidants to support brain health.</p>
                     </div>
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips3healthy.jpg" alt="Image of healthy food for healthy eating" class="img-fluid rounded"
-                        style="max-width: 150px;">
+                      <img src="assets/images/tips3healthy.jpg" alt="Image of healthy food for healthy eating"
+                        class="img-fluid rounded" style="max-width: 150px;">
                     </div>
                   </div>
                 </div>
@@ -251,15 +257,15 @@
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <i class="fa-solid fa-bed me-3" aria-hidden="true" alt="Icon to represent Sleep"></i>Consistent Sleep Routines
+                  <i class="fa-solid fa-bed me-3" aria-hidden="true"></i>Consistent Sleep Routines
                 </button>
               </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips4sleep.jpg" alt="Image of a restful space for consistent sleep routines" class="img-fluid rounded"
+                      <img src="assets/images/tips4sleep.jpg"
+                        alt="Image of a restful space for consistent sleep routines" class="img-fluid rounded"
                         style="max-width: 150px;">
                     </div>
                     <div class="col-md-8">
@@ -278,11 +284,10 @@
               <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <i class="fa-solid fa-hand-paper me-3" aria-hidden="true" alt="Icon to represent Halt with a raised hand"></i>Setting Healthy Boundaries
+                  <i class="fa-solid fa-hand-paper me-3" aria-hidden="true"></i>Setting Healthy Boundaries
                 </button>
               </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-8">
@@ -294,8 +299,8 @@
                         saying no to one thing means saying yes to yourself.</p>
                     </div>
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips5boundaries.jpg" alt="Image representing setting healthy boundaries" class="img-fluid rounded"
-                        style="max-width: 150px;">
+                      <img src="assets/images/tips5boundaries.jpg" alt="Image representing setting healthy boundaries"
+                        class="img-fluid rounded" style="max-width: 150px;">
                     </div>
                   </div>
                 </div>
@@ -305,16 +310,15 @@
               <h2 class="accordion-header" id="headingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  <i class="fa-solid fa-book me-3" aria-hidden="true" alt="Icon to represent Journalling"></i>Journalling
+                  <i class="fa-solid fa-book me-3" aria-hidden="true"></i>Journalling
                 </button>
               </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips6journal.jpg" alt="Image of a journal and pen for journalling" class="img-fluid rounded"
-                        style="max-width: 150px;">
+                      <img src="assets/images/tips6journal.jpg" alt="Image of a journal and pen for journalling"
+                        class="img-fluid rounded" style="max-width: 150px;">
                     </div>
                     <div class="col-md-8">
                       <p><strong>Journalling</strong> can help you process your emotions and thoughts. Writing down your
@@ -332,11 +336,10 @@
               <h2 class="accordion-header" id="headingSeven">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  <i class="fa-solid fa-heart me-3" aria-hidden="true" alt="Icon to represent Spending Time in Nature"></i>Spending Time in Nature
+                  <i class="fa-solid fa-heart me-3" aria-hidden="true"></i>Spending Time in Nature
                 </button>
               </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-8">
@@ -359,16 +362,15 @@
               <h2 class="accordion-header" id="headingEight">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  <i class="fa-solid fa-people-group me-3" aria-hidden="true" alt="Icon to represent sociability"></i>Connect with Others
+                  <i class="fa-solid fa-people-group me-3" aria-hidden="true"></i>Connect with Others
                 </button>
               </h2>
-              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips8connect.jpg" alt="Image of people meeting for a cuppa" class="img-fluid rounded"
-                        style="max-width: 150px;">
+                      <img src="assets/images/tips8connect.jpg" alt="Image of people meeting for a cuppa"
+                        class="img-fluid rounded" style="max-width: 150px;">
                     </div>
                     <div class="col-md-8">
                       <p><strong>Connecting with others</strong> can help combat loneliness and provide emotional
@@ -387,11 +389,10 @@
               <h2 class="accordion-header" id="headingNine">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  <i class="fa-solid fa-music me-3" aria-hidden="true" alt="Icon to represent creativity"></i>Music and Creative Expression
+                  <i class="fa-solid fa-music me-3" aria-hidden="true"></i>Music and Creative Expression
                 </button>
               </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                data-bs-parent="#selfHelpAccordion">
+              <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#selfHelpAccordion">
                 <div class="accordion-body">
                   <div class="row align-items-center">
                     <div class="col-md-8">
@@ -405,7 +406,8 @@
                         different parts of your brain and provide a healthy outlet for processing complex emotions.</p>
                     </div>
                     <div class="col-md-4 text-center">
-                      <img src="assets/images/tips9creativity.jpg" alt="Image of woman playing the flute for creative expression" class="img-fluid rounded"
+                      <img src="assets/images/tips9creativity.jpg"
+                        alt="Image of woman playing the flute for creative expression" class="img-fluid rounded"
                         style="max-width: 150px;">
                     </div>
                   </div>
@@ -424,7 +426,7 @@
         <div class="col-12">
           <h2>Organisations who can help</h2>
           <p><b>Here are some organisations that provide support and resources for mental health issues:
-          </b></p>
+            </b></p>
         </div>
         <div class="col-12">
           <div
@@ -432,28 +434,32 @@
             <div class="bubble mind-bubble align-self-center col-12 col-sm-6 col-md-3">
               <div class="bubble-inner">
                 <h6>Mind</h6>
-                <p><a href="https://www.mind.org.uk" target="_blank" rel="noopener noreferrer">Visit Mind Website</a></p>
+                <p><a href="https://www.mind.org.uk" target="_blank" rel="noopener noreferrer">Visit Mind Website</a>
+                </p>
                 <p>Helpline: 0300 123 3393</p>
               </div>
             </div>
             <div class="bubble samaritans-bubble  align-self-center col-12 col-sm-6 col-md-3">
               <div class="bubble-inner">
                 <h6>Samaritans</h6>
-                <p><a href="https://www.samaritans.org" target="_blank" rel="noopener noreferrer">Visit Samaritans Website</a></p>
+                <p><a href="https://www.samaritans.org" target="_blank" rel="noopener noreferrer">Visit Samaritans
+                    Website</a></p>
                 <p>Helpline: 116 123</p>
               </div>
             </div>
             <div class="bubble nhs-bubble align-self-center col-12 col-sm-6 col-md-3">
               <div class="bubble-inner">
                 <h6>NHS Every Mind Matters</h6>
-                <p><a href="https://www.nhs.uk/every-mind-matters/" target="_blank" rel="noopener noreferrer">Visit NHS Every Mind
+                <p><a href="https://www.nhs.uk/every-mind-matters/" target="_blank" rel="noopener noreferrer">Visit NHS
+                    Every Mind
                     Matters Website</a></p>
               </div>
             </div>
             <div class="bubble calm-bubble align-self-center col-12 col-sm-6 col-md-3">
               <div class="bubble-inner">
                 <h6>CALM (Campaign Against Living Miserably)</h6>
-                <p><a href="https://www.thecalmzone.net/" target="_blank" rel="noopener noreferrer">Visit CALM Website</a></p>
+                <p><a href="https://www.thecalmzone.net/" target="_blank" rel="noopener noreferrer">Visit CALM
+                    Website</a></p>
                 <p>Helpline: 0800 58 58 58</p>
               </div>
             </div>
@@ -465,13 +471,14 @@
     <!--  Books / Films -Carousels with cards-->
     <section id="section-books" class="container my-4">
       <div class="row pb-3">
-        <subsection id="bookcarousel" class="col-12 col-md-6">
+        <article id="bookcarousel" class="col-12 col-md-6">
           <div class="col-12 pt-3">
             <h2>Mental Health in Books</h2>
             <p><b>Explore these recommended books about mental health and well-being.</b></p>
           </div>
           <div class="col-12">
-            <div id="booksCarousel" aria-label="Mental Wellbeing Books Carousel" class="carousel slide card-carousel" data-bs-ride="false">
+            <div id="booksCarousel" aria-label="Mental Wellbeing Books Carousel" class="carousel slide card-carousel"
+              data-bs-ride="false">
               <div class="carousel-inner card-carousel-inner">
                 <div class="carousel-item active">
 
@@ -479,7 +486,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips1mindfulness.jpg" class="card-img-top" alt="Book 1">
                       <div class="card-body">
-                        <h5 class="card-title">The Anxiety Toolkit</h5>
+                        <h3 class="card-title h3">The Anxiety Toolkit</h3>
                         <p class="card-text">Strategies for fine-tuning your mind and managing anxiety effectively.</p>
                       </div>
                     </div>
@@ -490,7 +497,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips2physical.jpg" class="card-img-top" alt="Book 2">
                       <div class="card-body">
-                        <h5 class="card-title">Feeling Good</h5>
+                        <h3 class="card-title h3">Feeling Good</h3>
                         <p class="card-text">The new mood therapy that helps overcome depression.</p>
                       </div>
                     </div>
@@ -501,7 +508,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips3healthy.jpg" class="card-img-top" alt="Book 3">
                       <div class="card-body">
-                        <h5 class="card-title">Lost Connections</h5>
+                        <h3 class="card-title h3">Lost Connections</h3>
                         <p class="card-text">Uncovering the real causes of depression and unexpected solutions.</p>
                       </div>
                     </div>
@@ -512,7 +519,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips4sleep.jpg" class="card-img-top" alt="Book 4">
                       <div class="card-body">
-                        <h5 class="card-title">The Body Keeps the Score</h5>
+                        <h3 class="card-title h3">The Body Keeps the Score</h3>
                         <p class="card-text">Brain, mind, and body in the healing of trauma.</p>
                       </div>
                     </div>
@@ -525,7 +532,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips5boundaries.jpg" class="card-img-top" alt="Book 5">
                       <div class="card-body">
-                        <h5 class="card-title">Reasons to Stay Alive</h5>
+                        <h3 class="card-title h3">Reasons to Stay Alive</h3>
                         <p class="card-text">A memoir about depression and finding reasons to live.</p>
                       </div>
                     </div>
@@ -536,7 +543,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips6journal.jpg" class="card-img-top" alt="Book 6">
                       <div class="card-body">
-                        <h5 class="card-title">The Happiness Trap</h5>
+                        <h3 class="card-title h3">The Happiness Trap</h3>
                         <p class="card-text">How to stop struggling and start living using ACT.</p>
                       </div>
                     </div>
@@ -547,7 +554,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips7nature.jpg" class="card-img-top" alt="Book 7">
                       <div class="card-body">
-                        <h5 class="card-title">Mindfulness</h5>
+                        <h3 class="card-title h3">Mindfulness</h3>
                         <p class="card-text">A practical guide to finding peace in a frantic world.</p>
                       </div>
                     </div>
@@ -558,7 +565,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips8connect.jpg" class="card-img-top" alt="Book 8">
                       <div class="card-body">
-                        <h5 class="card-title">The Power of Now</h5>
+                        <h3 class="card-title h3">The Power of Now</h3>
                         <p class="card-text">A guide to spiritual enlightenment and present-moment awareness.</p>
                       </div>
                     </div>
@@ -576,14 +583,15 @@
               </button>
             </div>
           </div>
-        </subsection>
-        <subsection id="filmcarousel" class="col-12 col-md-6">
+        </article>
+        <article id="filmcarousel" class="col-12 col-md-6">
           <div class="col-12 pt-3">
             <h2>Mental Health in Film</h2>
             <p><b>Films that explore mental health themes with sensitivity and insight.</b></p>
           </div>
           <div class="col-12">
-            <div id="filmsCarousel" aria-label="Mental Health in film carousel" class="carousel slide card-carousel" data-bs-ride="false">
+            <div id="filmsCarousel" aria-label="Mental Health in film carousel" class="carousel slide card-carousel"
+              data-bs-ride="false">
               <div class="carousel-inner card-carousel-inner">
                 <div class="carousel-item active">
 
@@ -591,7 +599,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips2physical.jpg" class="card-img-top" alt="Film 1">
                       <div class="card-body">
-                        <h5 class="card-title">Silver Linings Playbook</h5>
+                        <h3 class="card-title h3">Silver Linings Playbook</h3>
                         <p class="card-text">A story about bipolar disorder, depression, and finding hope.</p>
                       </div>
                     </div>
@@ -602,7 +610,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips3healthy.jpg" class="card-img-top" alt="Film 2">
                       <div class="card-body">
-                        <h5 class="card-title">Inside Out</h5>
+                        <h3 class="card-title h3">Inside Out</h3>
                         <p class="card-text">An animated exploration of emotions and mental health.</p>
                       </div>
                     </div>
@@ -613,7 +621,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips4sleep.jpg" class="card-img-top" alt="Film 3">
                       <div class="card-body">
-                        <h5 class="card-title">A Beautiful Mind</h5>
+                        <h3 class="card-title h3">A Beautiful Mind</h3>
                         <p class="card-text">The true story of John Nash's life with schizophrenia.</p>
                       </div>
                     </div>
@@ -624,7 +632,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips5boundaries.jpg" class="card-img-top" alt="Film 4">
                       <div class="card-body">
-                        <h5 class="card-title">The Perks of Being a Wallflower</h5>
+                        <h3 class="card-title h3">The Perks of Being a Wallflower</h3>
                         <p class="card-text">A coming-of-age story addressing anxiety and PTSD.</p>
                       </div>
                     </div>
@@ -636,7 +644,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips6journal.jpg" class="card-img-top" alt="Film 5">
                       <div class="card-body">
-                        <h5 class="card-title">Good Will Hunting</h5>
+                        <h3 class="card-title h3">Good Will Hunting</h3>
                         <p class="card-text">A janitor's journey through therapy and self-discovery.</p>
                       </div>
                     </div>
@@ -647,7 +655,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips7nature.jpg" class="card-img-top" alt="Film 6">
                       <div class="card-body">
-                        <h5 class="card-title">The Skeleton Twins</h5>
+                        <h3 class="card-title h3">The Skeleton Twins</h3>
                         <p class="card-text">Twins reconnect after both attempting suicide.</p>
                       </div>
                     </div>
@@ -658,7 +666,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips8connect.jpg" class="card-img-top" alt="Film 7">
                       <div class="card-body">
-                        <h5 class="card-title">It's Kind of a Funny Story</h5>
+                        <h3 class="card-title h3">It's Kind of a Funny Story</h3>
                         <p class="card-text">A teen checks himself into a psychiatric hospital.</p>
                       </div>
                     </div>
@@ -669,7 +677,7 @@
                     <div class="card h-100">
                       <img src="assets/images/tips9creativity.jpg" class="card-img-top" alt="Film 8">
                       <div class="card-body">
-                        <h5 class="card-title">Joker</h5>
+                        <h3 class="card-title h3">Joker</h3>
                         <p class="card-text">A deep dive into mental illness and societal isolation.</p>
                       </div>
                     </div>
@@ -686,7 +694,7 @@
               </button>
             </div>
           </div>
-        </subsection>
+        </article>
       </div>
     </section>
 
